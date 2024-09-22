@@ -956,6 +956,16 @@ footer .wrapper { text-align: center; }
     color: var(--foreground-secondary);
   }
 
+  .topic-btn .icon-boxcolored {
+    font-size: 22px;
+    width: 70px;
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+    background: var(--accent);
+    color: var(--foreground-primary);
+  }
+
   .topic-btn:hover .icon-box {
     background: var(--accent);
     color: var(--white);
